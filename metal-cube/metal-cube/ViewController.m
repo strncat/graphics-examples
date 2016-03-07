@@ -1,20 +1,28 @@
 //
 //  ViewController.m
-//  metal-triangle
+//  metal-cube
 //  Source: Metal By Example - Warren Moore
 //
 
 #import "ViewController.h"
+#import "MetalView.h"
+#import "Renderer.h"
 
 @interface ViewController ()
-
+@property (nonatomic, strong) Renderer *renderer;
 @end
 
 @implementation ViewController
 
+- (MetalView *)metalView {
+    return (MetalView *)self.view;
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+
+    self.renderer = [Renderer new];
+    self.metalView.delegate = self.renderer;
 }
 
 - (void)didReceiveMemoryWarning {

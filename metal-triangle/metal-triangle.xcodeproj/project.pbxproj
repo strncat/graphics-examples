@@ -106,7 +106,6 @@
 		25EB32E71C246F36007A2EB0 /* metal-triangle */ = {
 			isa = PBXGroup;
 			children = (
-				25EB331E1C2473B6007A2EB0 /* shaders.metal */,
 				25EB33201C2473E5007A2EB0 /* shaders */,
 				25EB32EB1C246F36007A2EB0 /* AppDelegate.h */,
 				25EB32EC1C246F36007A2EB0 /* AppDelegate.m */,
@@ -152,6 +151,7 @@
 		25EB33201C2473E5007A2EB0 /* shaders */ = {
 			isa = PBXGroup;
 			children = (
+				25EB331E1C2473B6007A2EB0 /* shaders.metal */,
 			);
 			name = shaders;
 			sourceTree = "<group>";
@@ -223,7 +223,6 @@
 				TargetAttributes = {
 					25EB32E41C246F36007A2EB0 = {
 						CreatedOnToolsVersion = 7.1;
-						DevelopmentTeam = U48BM244J6;
 					};
 					25EB32FD1C246F36007A2EB0 = {
 						CreatedOnToolsVersion = 7.1;
@@ -432,6 +431,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "metal-triangle/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "nemo.metal-triangle";
@@ -443,6 +443,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "metal-triangle/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "nemo.metal-triangle";
@@ -517,6 +518,7 @@
 				25EB33141C246F36007A2EB0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		25EB33151C246F36007A2EB0 /* Build configuration list for PBXNativeTarget "metal-triangleTests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +527,7 @@
 				25EB33171C246F36007A2EB0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		25EB33181C246F36007A2EB0 /* Build configuration list for PBXNativeTarget "metal-triangleUITests" */ = {
 			isa = XCConfigurationList;
@@ -533,6 +536,7 @@
 				25EB331A1C246F36007A2EB0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
