@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		255AA4211B322CFC00FEB593 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 255AA4201B322CFC00FEB593 /* main.m */; };
+		255AA4241B322CFC00FEB593 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 255AA4231B322CFC00FEB593 /* AppDelegate.m */; };
+		255AA4271B322CFC00FEB593 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 255AA4261B322CFC00FEB593 /* ViewController.m */; };
+		255AA42A1B322CFC00FEB593 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 255AA4281B322CFC00FEB593 /* Main.storyboard */; };
+		255AA42C1B322CFC00FEB593 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 255AA42B1B322CFC00FEB593 /* Images.xcassets */; };
+		255AA42F1B322CFC00FEB593 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 255AA42D1B322CFC00FEB593 /* LaunchScreen.xib */; };
+		255AA43B1B322CFC00FEB593 /* simple_cube_lightTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 255AA43A1B322CFC00FEB593 /* simple_cube_lightTests.m */; };
+		255AA4451B322D2900FEB593 /* Shader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 255AA4441B322D2900FEB593 /* Shader.fsh */; };
+		255AA4471B322D3B00FEB593 /* Shader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 255AA4461B322D3B00FEB593 /* Shader.vsh */; };
+		255AA4491B322D8E00FEB593 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 255AA4481B322D8E00FEB593 /* OpenGLES.framework */; };
+		255AA44B1B322D9400FEB593 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 255AA44A1B322D9400FEB593 /* GLKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		255AA4351B322CFC00FEB593 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 255AA4131B322CFC00FEB593 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 255AA41A1B322CFC00FEB593;
+			remoteInfo = "simple-cube-light";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		255AA41B1B322CFC00FEB593 /* simple-cube-light.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "simple-cube-light.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		255AA41F1B322CFC00FEB593 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		255AA4201B322CFC00FEB593 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		255AA4221B322CFC00FEB593 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		255AA4231B322CFC00FEB593 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		255AA4251B322CFC00FEB593 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		255AA4261B322CFC00FEB593 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		255AA4291B322CFC00FEB593 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		255AA42B1B322CFC00FEB593 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		255AA42E1B322CFC00FEB593 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		255AA4341B322CFC00FEB593 /* simple-cube-lightTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "simple-cube-lightTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		255AA4391B322CFC00FEB593 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		255AA43A1B322CFC00FEB593 /* simple_cube_lightTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = simple_cube_lightTests.m; sourceTree = "<group>"; };
+		255AA4441B322D2900FEB593 /* Shader.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Shader.fsh; sourceTree = "<group>"; };
+		255AA4461B322D3B00FEB593 /* Shader.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Shader.vsh; sourceTree = "<group>"; };
+		255AA4481B322D8E00FEB593 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		255AA44A1B322D9400FEB593 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		255AA4181B322CFC00FEB593 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				255AA44B1B322D9400FEB593 /* GLKit.framework in Frameworks */,
+				255AA4491B322D8E00FEB593 /* OpenGLES.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		255AA4311B322CFC00FEB593 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		255AA4121B322CFC00FEB593 = {
+			isa = PBXGroup;
+			children = (
+				255AA44A1B322D9400FEB593 /* GLKit.framework */,
+				255AA4481B322D8E00FEB593 /* OpenGLES.framework */,
+				255AA41D1B322CFC00FEB593 /* simple-cube-light */,
+				255AA4371B322CFC00FEB593 /* simple-cube-lightTests */,
+				255AA41C1B322CFC00FEB593 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		255AA41C1B322CFC00FEB593 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				255AA41B1B322CFC00FEB593 /* simple-cube-light.app */,
+				255AA4341B322CFC00FEB593 /* simple-cube-lightTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		255AA41D1B322CFC00FEB593 /* simple-cube-light */ = {
+			isa = PBXGroup;
+			children = (
+				255AA4441B322D2900FEB593 /* Shader.fsh */,
+				255AA4461B322D3B00FEB593 /* Shader.vsh */,
+				255AA4221B322CFC00FEB593 /* AppDelegate.h */,
+				255AA4231B322CFC00FEB593 /* AppDelegate.m */,
+				255AA4251B322CFC00FEB593 /* ViewController.h */,
+				255AA4261B322CFC00FEB593 /* ViewController.m */,
+				255AA4281B322CFC00FEB593 /* Main.storyboard */,
+				255AA42B1B322CFC00FEB593 /* Images.xcassets */,
+				255AA42D1B322CFC00FEB593 /* LaunchScreen.xib */,
+				255AA41E1B322CFC00FEB593 /* Supporting Files */,
+			);
+			path = "simple-cube-light";
+			sourceTree = "<group>";
+		};
+		255AA41E1B322CFC00FEB593 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				255AA41F1B322CFC00FEB593 /* Info.plist */,
+				255AA4201B322CFC00FEB593 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		255AA4371B322CFC00FEB593 /* simple-cube-lightTests */ = {
+			isa = PBXGroup;
+			children = (
+				255AA43A1B322CFC00FEB593 /* simple_cube_lightTests.m */,
+				255AA4381B322CFC00FEB593 /* Supporting Files */,
+			);
+			path = "simple-cube-lightTests";
+			sourceTree = "<group>";
+		};
+		255AA4381B322CFC00FEB593 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				255AA4391B322CFC00FEB593 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		255AA41A1B322CFC00FEB593 /* simple-cube-light */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 255AA43E1B322CFC00FEB593 /* Build configuration list for PBXNativeTarget "simple-cube-light" */;
+			buildPhases = (
+				255AA4171B322CFC00FEB593 /* Sources */,
+				255AA4181B322CFC00FEB593 /* Frameworks */,
+				255AA4191B322CFC00FEB593 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "simple-cube-light";
+			productName = "simple-cube-light";
+			productReference = 255AA41B1B322CFC00FEB593 /* simple-cube-light.app */;
+			productType = "com.apple.product-type.application";
+		};
+		255AA4331B322CFC00FEB593 /* simple-cube-lightTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 255AA4411B322CFC00FEB593 /* Build configuration list for PBXNativeTarget "simple-cube-lightTests" */;
+			buildPhases = (
+				255AA4301B322CFC00FEB593 /* Sources */,
+				255AA4311B322CFC00FEB593 /* Frameworks */,
+				255AA4321B322CFC00FEB593 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				255AA4361B322CFC00FEB593 /* PBXTargetDependency */,
+			);
+			name = "simple-cube-lightTests";
+			productName = "simple-cube-lightTests";
+			productReference = 255AA4341B322CFC00FEB593 /* simple-cube-lightTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		255AA4131B322CFC00FEB593 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = nemo;
+				TargetAttributes = {
+					255AA41A1B322CFC00FEB593 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					255AA4331B322CFC00FEB593 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 255AA41A1B322CFC00FEB593;
+					};
+				};
+			};
+			buildConfigurationList = 255AA4161B322CFC00FEB593 /* Build configuration list for PBXProject "simple-cube-light" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 255AA4121B322CFC00FEB593;
+			productRefGroup = 255AA41C1B322CFC00FEB593 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				255AA41A1B322CFC00FEB593 /* simple-cube-light */,
+				255AA4331B322CFC00FEB593 /* simple-cube-lightTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		255AA4191B322CFC00FEB593 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				255AA4451B322D2900FEB593 /* Shader.fsh in Resources */,
+				255AA42A1B322CFC00FEB593 /* Main.storyboard in Resources */,
+				255AA42F1B322CFC00FEB593 /* LaunchScreen.xib in Resources */,
+				255AA42C1B322CFC00FEB593 /* Images.xcassets in Resources */,
+				255AA4471B322D3B00FEB593 /* Shader.vsh in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		255AA4321B322CFC00FEB593 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		255AA4171B322CFC00FEB593 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				255AA4271B322CFC00FEB593 /* ViewController.m in Sources */,
+				255AA4241B322CFC00FEB593 /* AppDelegate.m in Sources */,
+				255AA4211B322CFC00FEB593 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		255AA4301B322CFC00FEB593 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				255AA43B1B322CFC00FEB593 /* simple_cube_lightTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		255AA4361B322CFC00FEB593 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 255AA41A1B322CFC00FEB593 /* simple-cube-light */;
+			targetProxy = 255AA4351B322CFC00FEB593 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		255AA4281B322CFC00FEB593 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				255AA4291B322CFC00FEB593 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		255AA42D1B322CFC00FEB593 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				255AA42E1B322CFC00FEB593 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		255AA43C1B322CFC00FEB593 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		255AA43D1B322CFC00FEB593 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		255AA43F1B322CFC00FEB593 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "simple-cube-light/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		255AA4401B322CFC00FEB593 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "simple-cube-light/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		255AA4421B322CFC00FEB593 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "simple-cube-lightTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/simple-cube-light.app/simple-cube-light";
+			};
+			name = Debug;
+		};
+		255AA4431B322CFC00FEB593 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "simple-cube-lightTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/simple-cube-light.app/simple-cube-light";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		255AA4161B322CFC00FEB593 /* Build configuration list for PBXProject "simple-cube-light" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				255AA43C1B322CFC00FEB593 /* Debug */,
+				255AA43D1B322CFC00FEB593 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		255AA43E1B322CFC00FEB593 /* Build configuration list for PBXNativeTarget "simple-cube-light" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				255AA43F1B322CFC00FEB593 /* Debug */,
+				255AA4401B322CFC00FEB593 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		255AA4411B322CFC00FEB593 /* Build configuration list for PBXNativeTarget "simple-cube-lightTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				255AA4421B322CFC00FEB593 /* Debug */,
+				255AA4431B322CFC00FEB593 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 255AA4131B322CFC00FEB593 /* Project object */;
+}
